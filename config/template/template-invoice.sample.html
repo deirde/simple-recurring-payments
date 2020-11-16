@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="{lang}">
+    <head>
+        <meta charset="utf-8">
+        <title>{pageTitle}</title>
+        <style media="all">
+            a {
+                color: #5D6975;
+                text-decoration: underline;
+            }
+            /*body {
+                position: relative;
+                width: 21cm;
+                height: 29.7cm;
+            }*/
+            body {
+                margin: 0 auto; 
+                color: #001028;
+                background: #FFFFFF; 
+                font-family: Arial, sans-serif; 
+                font-size: 12px; 
+                font-family: Arial;
+            }
+            header {
+                padding: 0 0;
+                margin-bottom: 30px;
+            }
+            h1 {
+                border-top: 1px solid  #5D6975;
+                border-bottom: 1px solid  #5D6975;
+                color: #5D6975;
+                font-size: 2.4em;
+                line-height: 1.4em;
+                font-weight: normal;
+                text-align: center;
+                margin: 0 0 20px 0;
+                background: url(dimension.png);
+            }
+            h3 {
+                text-transform: uppercase;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                border-spacing: 0;
+                margin-bottom: 20px;
+            }
+            tr:nth-child(2n-1) td {
+                background: #F5F5F5;
+            }
+            th,
+            td {
+                text-align: center;
+            }
+            th {
+                padding: 5px 20px;
+                color: #5D6975;
+                border-bottom: 1px solid #C1CED9;
+                white-space: nowrap;        
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+            td {
+                padding: 20px;
+                text-align: right;
+            }
+            footer {
+                color: #5D6975;
+                width: 100%;
+                height: 30px;
+                position: absolute;
+                bottom: 0;
+                border-top: 1px solid #C1CED9;
+                padding: 8px 0;
+                text-align: center;
+            }
+            #clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            #header-left {
+                text-align: left;
+            }
+            #logo {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            #logo img {
+                width: 270px;
+            }
+            #invoice-from {
+                 text-align: left;
+            }
+            #invoice-from b {
+                 text-transform: uppercase;
+            }
+            #invoice-to {
+                 text-align: right;
+            }
+            #invoice-to b {
+                 text-transform: uppercase;
+            }
+            #notice {
+                color: #5D6975;
+                font-size: 1.2em;
+            }
+            #payment-url {
+                font-weight: bold;
+                color: black
+            }
+            .service,
+            .desc {
+                vertical-align: top;
+            }
+            .unit,
+            .qty,
+            .total {
+                font-size: 1.2em;
+            }
+            .grand {
+                border-top: 1px solid #5D6975;;
+            }
+            .total {
+                text-transform: uppercase;
+            }
+            .service,
+            .desc {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="clearfix">
+        <div id="logo">
+            <img src="{logoImgPath}">
+        </div>
+        <h1>
+            {invoice}&nbsp;{sInvoiceId}
+        </h1>
+        <table>
+            <tr>
+                <td id="header-left" align="left">
+                    {year}&nbsp;
+                    <b>
+                        {invoiceYear}
+                    </b>
+                    <br />
+                    {sku}&nbsp;
+                    <b>
+                        {skuVal}
+                    </b>
+                </td>
+                <td>
+                    {invoiceIssuedOn}&nbsp;
+                    <b>
+                        {invoiceIssuedOnVal}
+                    </b>
+                    <br />
+                    {paymentDue}&nbsp;
+                    <b>
+                        {paymentDueVal}
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td id="invoice-from">
+                    <b>
+                        {invoiceFrom}
+                    </b>
+                    <br />
+                    {invoiceFromVal}
+                </td>
+                <td id="invoice-to">
+                    <b>
+                        {invoiceTo}
+                    </b>
+                    <br />
+                    {invoiceToVal}
+                </td>
+            </tr>
+        </table>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="service">
+                            {service}
+                        </th>
+                        <th class="desc">
+                            {description}
+                        </th>
+                        <th>
+                            {price}
+                        </th>
+                        <th>
+                            {quantity}
+                        </th>
+                        <th>
+                            {total}
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="service">
+                            {itemSubjectVal}
+                        </td>
+                        <td class="desc">
+                            {itemDescriptionVal}
+                        </td>
+                        <td class="unit">
+                            {currencyVal}&nbsp;{priceVal}
+                        </td>
+                        <td class="qty">
+                            1
+                        </td>
+                        <td class="total">
+                            {currencyVal}&nbsp;{priceVal}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            {tax} {taxVal}
+                        </td>
+                        <td class="total">
+                            {currencyVal}&nbsp;0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="grand total">
+                            {grandTotal}
+                        </td>
+                        <td class="grand total">
+                            {currencyVal}&nbsp;{priceVal}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <h3>
+                    {notice1}
+                </h3>
+                <div id="notice">
+                    <small>
+                        {notice2}
+                    </small>
+                    <br />
+                    <a id="payment-url">
+                        {paymentUrl}
+                    </a>
+                    <br />
+                    <br />
+                    <small>
+                        {notice3}
+                        <br />
+                        <br />
+                        {notice4}
+                    </small>
+                </div>
+            </div>
+        </main>
+        <footer>
+             {footer1}
+             <br />
+             {footer2}
+        </footer>
+    </body>
+</html>

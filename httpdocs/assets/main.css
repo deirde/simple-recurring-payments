@@ -1,0 +1,108 @@
+html,
+body,
+table {
+    height: 80%;
+}
+body {
+    background: url("/assets/body-bg.gif") #ededed no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+#stains-1 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 83px;
+    height: 859px;
+    background: url("/assets/stains-1.png") no-repeat;
+}
+#stains-2 {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 83px;
+    height: 307px;
+    background: url("/assets/stains-2.png") no-repeat;
+    left: auto;
+}
+#stains-3 {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: url("/assets/stains-3.png");
+    background-repeat: repeat;
+}
+#logo {
+    margin-bottom: 38px;
+    width: 310px;
+}
+table {
+    position: relative;
+    top: 50%;
+    margin-top: -201px;
+    border-collapse: separate;
+}
+table,
+#main {
+    padding: 29px 38px 36px 38px;
+}
+#main {
+    background-color: #fff;
+    border: 4px solid #eee;
+    border-radius: 36px;
+    width: 570px;
+    height: 396px;
+}
+#footer {
+    padding-top: 14px;
+    font-size: 11px;
+}
+h1 {
+    line-height: 14px;
+}
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #9d9d9d;
+    font-weight: normal;
+    font-style: normal;
+}
+small,
+.black {
+    color: #000 !important;
+}
+h3 {
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #9d9d9d;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    text-transform: none;
+    margin-bottom: 29px;
+    font-weight: normal;
+}
+.pay-button {
+    display: none;
+}
+#loading-spinner {
+    margin-top: 19px;
+}
+#transaction-ok,
+#transaction-ko {
+    display: none;
+    margin-bottom: 25px;
+}
+#transaction-ok {
+    color: #387c28;
+}
+#transaction-ko {
+    color: #f30e0e;
+}
+#pay-direct-bank-info {
+    margin-top: 29px;
+}

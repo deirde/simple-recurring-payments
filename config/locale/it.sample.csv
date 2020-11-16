@@ -1,0 +1,70 @@
+logoFilename,logo-it.png
+invoiceId,Numero fattura
+orderClosed,"<img src='assets/logo.png' width='245' /><br /><br />Questo ordine non è valido, chiuso o saldato pertanto non posso procedere oltre. Per qualunque domanda scrivici a <b>info@acme.com</b>."
+footerLine,"@2017 | Acme Corp.<br />info@acme.com | lun - ven, 9:00 - 18:30 | Ultimo aggiornamento: 25/02/2017 | Versione: 1.2"
+orderId,"Ordine ID"
+subject,Oggetto
+customer,Cliente
+expiration,Scadenza
+loadingOnProgress,carimento..
+payWithCreditCard,Paga con la carta di credito
+payWithPaypal,Paga con Paypal
+payWithDirectBankTransfer,Se invece preferisci pagare con bonifico bancario
+bankName,Banca
+bankIban,IBAN
+bankBic,BIC
+bankSwift,SWIFT,
+directBankPaymentProof,"Per piacere inviaci il CRO dell'operazione, grazie.",
+transactionCompleted,"Pagamento eseguito, grazie!"
+paymentReceived,Il pagamento è stato ricevuto.
+weSendInvoice,Provvederemo a inviarti la fattura a breve.
+transactionFailed,"Attenzione, il pagamento non è andato a buon fine."
+tryAgain,Riprova oppure contattaci.
+{domain},Dominio
+{invoice},Fattura
+{year},Anno
+{sku},Sku
+{invoiceIssuedOn},Fattura emessa il
+{paymentDue},Pagamento dovuto
+{invoiceFrom},Dati del fornitore
+{invoiceFromVal},"Acme Corp.<br />2332 Sunny Timber Meadow<br />London<br />TW5 2HG, UK<br />info@acme.com<br />www.acme.com"
+{invoiceTo},Dati del cliente
+{service},servizio
+{description},descrizione
+{price},prezzo
+{quantity},quantità
+{total},totale
+{tax},IVA
+{grandTotal},totale
+{adminEmailSubject},Prodotto o servizio in scadenza o scaduto
+{recipientEmail},E-mail destinatario
+{notice1},Dettagli del pagamento
+{notice2},Per saldare l'ordine apra nel suo browser il link sottostante e segua le indicazioni a monitor
+{notice3},"Vi invitiamo a provvedere al saldo richiesto entro la data di scadenza della presente, inoltre, qualora abbiate scelto come metodo di pagamento il bonifico bancario, se pur non necessario è gradito inviare la documentazione dell'avvenuto pagamento (copia della del  bonifico) via e-mail a info@acme.com."
+{notice4},"In caso di ritardo nel pagamento, eventuali ulteriori lavorazioni in corso d'opera del fornitore saranno sospese e decorreranno, dal giorno successivo alla scadenza della presente e senza necessità di costituzione in mora, interessi al saggio tempo secondo le normative vigenti."
+{footer1},""Acme Corp., multimedia design & development, www.acme.com, info@acme.com"
+{footer2},"Acme Corp.<br />2332 Sunny Timber Meadow<br />Londra<br />TW5 2HG, UK<br />info@acme.com<br />www.acme.com"
+{client},Cliente
+{productOrService},Prodotto o servizio
+{amountDue},Pagamento dovuto
+{sExpirationDate},Data di scadenza
+{sExpirationInDays},Giorno alla scadenza
+{itemUnderExpiration},Un prodotto o servizio è in scadenza
+{header1},"Acme Corp. ** Website development & web marketing, comunicazione importante."
+{itemUnderExpirationEmailBody1},"Gentile cliente,<br /><br />con la presente la informiamo che un ordine o prodotto è in scadenza. Di seguito i dettagli:"
+{itemUnderExpirationEmailBody2},Per evitare la disattivazione la invitiamo a provvedere al saldo prima della scadenza.
+{itemUnderExpirationEmailBody3},Può procedere al pagamento aprendo nel suo browser il link sottostante e seguendo le indicazioni a monitor.
+{footer},Grazie per l'attenzione e cordiali saluti.
+{phone},Telefono
+{summary},Riepilogo
+{smsRecipientEmail},E-mail destinatario
+{smsBodyItemUnderExpiration1},"Acme Corp. ** Website development & web marketing. Un prodotto o servizio è in scadenza, verifichi la sua e-mail per ulteriori dettagli. Per qualunque domanda ci scriva a info@acme.com. "
+{smsBodyItemUnderExpiration2},"Per saldare l'ordine apra questo link "
+{smsBodyItemUnderExpiration3}," e segua le istruzioni nel monitor, grazie."
+{itemInDeactivation},In disattivazione
+{itemInDeactivationEmailBody1},"Gentile cliente,<br /><br />con la presente e-mail la informiamo che un prodotto o servizio sarà presto disattivato poichè scaduto e non saldato. Di seguito i dettagli:"
+{itemInDeactivationEmailBody2},To avoid the de-activation we invite you to provide payment for this order as soon as possible.
+{itemInDeactivationEmailBody3},You can proceed to the payment clicking on the link below and follow the instructions in your browser.
+{smsBodyItemInDeactivation1},"Acme Corp. ** Website development & web marketing, avviso importante. Un prodotto o servizio sarà presto disattivato poichè scaduto e non saldato. Per maggiori informazioni scrivici a info@acme.com. "
+{smsBodyItemInDeactivation2},"Per saldare l'ordine apra nel suo browser il link sottostante "
+{smsBodyItemInDeactivation3}," e segua le indicazioni a monitor, grazie."

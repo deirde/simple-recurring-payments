@@ -1,0 +1,70 @@
+logoFilename,logo-en.png
+invoiceId,Invoice ID
+orderClosed,"<img src='assets/logo.png' width='245' /><br /><br />This order is not valid, closed or already paid and I cannot proceed further. If you have any question write us an e-mail to <b>info@acme.com</b>."
+footerLine,"@2017 | Acme Corp.<br />info@acme.com | mon - fri, 9:00 - 18:30 | Last update: 25/02/2017 | Version: 1.2"
+orderId,"Order ID"
+subject,Subject
+customer,Customer
+expiration,Expiration
+loadingOnProgress,loading..
+payWithCreditCard,Pay with credit card
+payWithPaypal,Pay with Paypal
+payWithDirectBankTransfer,If you prefer pay by direct bank transfer
+bankName,Bank
+bankIban,IBAN
+bankBic,BIC
+bankSwift,SWIFT,
+directBankPaymentProof,"Please provide us the bank transfer ID via e-mail, thanks.",
+transactionCompleted,"Transaction completed, thank you!"
+paymentReceived,The payment has been received.
+weSendInvoice,We will send you the invoice shortly.
+transactionFailed,"Attention, the transaction has failed."
+tryAgain,Try again or contact us.
+{domain},domain
+{invoice},Invoice
+{year},Year
+{sku},Sku
+{invoiceIssuedOn},Invoice issued on
+{paymentDue},Payment due
+{invoiceFrom},Invoice from
+{invoiceFromVal},Acme Corp.<br />2332 Sunny Timber Meadow<br />London<br />TW5 2HG, UK<br />info@acme.com<br />www.acme.com"
+{invoiceTo},invoice to
+{service},service
+{description},decription
+{price},price
+{quantity},qty
+{total},total
+{tax},VAT
+{grandTotal},grand total
+{adminEmailSubject},Product or service under expiration or expired
+{recipientEmail},Recipent e-mail
+{notice1},Payment details
+{notice2},To pay the order open the link below in your browser and follow the instructions
+{notice3},"Vi invitiamo a provvedere al saldo richiesto entro la data di scadenza della presente, inoltre, qualora abbiate scelto come metodo di pagamento il bonifico bancario, se pur non necessario è gradito inviare la documentazione dell'avvenuto pagamento (copia della del  bonifico) via e-mail a info@acme.com."
+{notice4},"In caso di ritardo nel pagamento, eventuali ulteriori lavorazioni in corso d'opera del fornitore saranno sospese e decorreranno, dal giorno successivo alla scadenza della presente e senza necessità di costituzione in mora, interessi al saggio tempo secondo le normative vigenti."
+{footer1},"Acme Corp., www.acme.com, info@acme.com"
+{footer2},"2332 Sunny Timber Meadow, London, TW5 2HG, UK"
+{client},Client
+{productOrService},Product or service
+{amountDue},Amount due
+{sExpirationDate},Expiration date
+{sExpirationInDays},Expiration in days
+{itemUnderExpiration},A product or service is expiring
+{header1},"Acme Corp., this is an important advise."
+{itemUnderExpirationEmailBody1},"Dear customer,<br /><br />with this e-mail we would like to inform you that the a service or product will expire soon. Below you can check the details:"
+{itemUnderExpirationEmailBody2},To avoid the deaction we invite you to provide payment for this order before its expiration.
+{itemUnderExpirationEmailBody3},You can proceed to the payment clicking on the link below and follow the instructions in your browser.
+{footer},Thanks for the attention and kind regards.
+{phone},Phone
+{summary},Summary
+{smsRecipientEmail},Recipent e-mail
+{smsBodyItemUnderExpiration1},"Acme Corp. A product or service is expiring, please check your e-mail for details. For any question write us here info@acme.com. "
+{smsBodyItemUnderExpiration2},"To pay the order you can open the link "
+{smsBodyItemUnderExpiration3}," and follow the instruction in your browser, cheers."
+{itemInDeactivation},Item in deactivation
+{itemInDeactivationEmailBody1},"Dear customer,<br /><br />with this e-mail we would like to inform you that the a service or product will be de-activated soon because expired. Below you can check the details:"
+{itemInDeactivationEmailBody2},To avoid the de-activation we invite you to provide payment for this order as soon as possible.
+{itemInDeactivationEmailBody3},You can proceed to the payment clicking on the link below and follow the instructions in your browser.
+{smsBodyItemInDeactivation1},"Acme Corp., this is an important advise. A product or service will be de-activated soon because expired, please check your e-mail for details. For any question write us here info@acme.com. "
+{smsBodyItemInDeactivation2},"To pay the order you can open the link "
+{smsBodyItemInDeactivation3}," and follow the instruction in your browser, cheers."

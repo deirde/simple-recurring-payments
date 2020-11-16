@@ -1,0 +1,11 @@
+{
+    "require": {
+        "stripe/stripe-php": "^4.4",
+        "wixel/gump": "dev-master",
+        "gabordemooij/redbean": "dev-master",
+        "kint-php/kint": "^1.1",
+        "phpFastCache/phpFastCache": "^4.3",
+        "dompdf/dompdf": "^0.8.0",
+        "phpmailer/phpmailer": "^5.2"
+    }
+}
